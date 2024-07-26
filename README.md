@@ -1,4 +1,4 @@
-# KDD_Project_Group3
+# Impact Analysis of Mobile Phone Usage on Academic Performance and Health Outcomes in Students
 # Team Name: Project Group3
 # Team Members: 
 1.Maneesh Varma Mynam<br>
@@ -75,7 +75,10 @@ Loaded the dataset from a CSV file into a DataFrame to make it ready for analysi
 Checked for and addressed missing data by either filling in gaps with default values or removing incomplete rows to ensure a complete dataset.<br>
 <b>3.Data Transformation:</b><br>
 <b>Categorical Encoding:</b> Converted text-based categories (e.g., mobile phone usage patterns) into numerical values for easier analysis.<br>
-<b>Age Data Normalization: </b>Changed age ranges into average values to simplify the analysis.
+<b>Age Data Normalization: </b>Changed age ranges into average values to simplify the analysis.<br>
+
+
+The data preparation involves importing and cleaning the dataset, converting categorical and numerical data into usable formats, creating new features for better analysis, and handling outliers. These steps made the dataset ready for detailed exploration and modeling.
 
 
 
