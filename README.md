@@ -22,7 +22,7 @@ Overall, the project aims to provide a comprehensive analysis of how mobile phon
 How does mobile phone usage affect students' academic performance and health outcomes, and which specific usage patterns and health symptoms are most closely linked to changes in perceived academic performance?
 
 # Relevant Domain Information
-<a href=https://courses.lumenlearning.com/readinganthology/chapter/the-relationship-between-cell-phone-use-and-academic-performance-in-a-sample-of-u-s-college-students-by-andrew-lepp-jacob-e-barkley-and-aryn-c-karpinski/>The Relationship Between Cell Phone Use and Academic Performance<br>
+<a href=https://courses.lumenlearning.com/readinganthology/chapter/the-relationship-between-cell-phone-use-and-academic-performance-in-a-sample-of-u-s-college-students-by-andrew-lepp-jacob-e-barkley-and-aryn-c-karpinski/>The Relationship Between Cell Phone Use and Academic Performance</a><br>
 Above article study examines how mobile phone usage affects academic performance among university students, analyzing patterns and outcomes related to mobile phone habits and academic achievement.
 # Data Source and Description
 
