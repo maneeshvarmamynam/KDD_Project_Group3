@@ -1,7 +1,7 @@
 # KDD_Project_Group3
 # Team Name: Project Group3
 # Team Members: 
-1.Maneesh Varma Mynam
+1.Maneesh Varma Mynam<br>
 2.Tanishq Mahajan
 3.Nishit Saraf
 
