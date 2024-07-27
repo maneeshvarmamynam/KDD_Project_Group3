@@ -5,19 +5,10 @@
 2.Tanishq Mahajan<br>
 3.Nishit Saraf<br>
 
-# Project Description:
-Project investigates the relationship between mobile phone usage, academic performance, and health among university students using a dataset of students information form Kaggle. The dataset includes detailed information on students' ages, genders, mobile phone ownership, usage patterns for educational purposes, perceptions of usefulness, reported health symptoms, and overall academic performance. The aim is to understand how mobile phone usage influences students' academic success and health outcomes, offering insights into potential areas for targeted interventions.
+# Project Introduction:
+The "Students Health & Academic Performance" dataset explores the complex relationship that links the health behaviors—specifically, the use of mobile phones—of students and their academic performance. This dataset consists of multiple rows, each of which represents a student, and has columns that included personal data, mobile phone usage patterns, impact on education, health awareness, and symptoms associated with it. The purpose of this study is to investigate the relationship between students' use of mobile phones and their health and academic performance.
 
-Our project is descriptive and diagnostic in nature. We seek to elucidate current patterns and relationships within the data and diagnose potential factors influencing students' academic and health metrics. To achieve this, we will employ both unsupervised and supervised learning techniques:
-
-<b>Unsupervised Learning:</b> We will use clustering methods, such as K-means or hierarchical clustering, to segment students into distinct groups based on their mobile phone usage patterns and health symptoms. This will help identify common profiles within the student population, such as those with heavy mobile phone use and high levels of reported health issues.
-
-<b>Supervised Learning:</b> We will apply logistic regression to predict the perceived impact of mobile phone usage on academic performance. This method will allow us to determine how factors such as mobile phone use frequency and reported health symptoms influence students' perceptions of their academic performance.
-
-Additionally, we will explore association rules to uncover significant relationships between mobile phone activities and health symptoms. This approach will help identify patterns and dependencies that could inform targeted recommendations for students' mobile phone usage to improve academic and health outcomes.
-
-Overall, the project aims to provide a comprehensive analysis of how mobile phone usage affects students' academic performance and health, facilitating the development of evidence-based strategies for enhancing student well-being and academic achievement.
-
+As the data is of this kind, our study aims to be both predictive and diagnostic. Our goals are to identify existing trends and connections in the dataset and estimate the potential effects of particular actions on academic achievement. This study will discover important determinants of academic achievement and health by using supervised learning techniques, including classification and logistic regression. In order to distinguish between various student groups based to their usage habits and health effects, we will also look into clustering.
 # Research Question: 
 How does mobile phone usage affect students' academic performance and health outcomes, and which specific usage patterns and health symptoms are most closely linked to changes in perceived academic performance?
 
@@ -81,13 +72,11 @@ Loaded the dataset from a CSV file into a DataFrame to make it ready for analysi
 <b>2.Handling Missing Values:</b><br>
 Checked for and addressed missing data by either filling in gaps with default values or removing incomplete rows to ensure a complete dataset.<br>
 <b>3.Data Transformation:</b><br>
-<b>Categorical Encoding:</b> Converted text-based categories (e.g., mobile phone usage patterns) into numerical values for easier analysis.<br>
-<b>Age Data Normalization: </b>Changed age ranges into average values to simplify the analysis.<br>
+    <b>Categorical Encoding:</b> Converted text-based categories (e.g., mobile phone usage patterns) into numerical values for easier analysis.<br>
+    <b>Age Data Normalization: </b>Changed age ranges into average values to simplify the analysis.<br>
 
 
 The data preparation involves importing and cleaning the dataset, converting categorical and numerical data into usable formats, creating new features for better analysis, and handling outliers. These steps made the dataset ready for detailed exploration and modeling.
-
-
 
 
 
