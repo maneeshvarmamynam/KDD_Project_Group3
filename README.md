@@ -74,9 +74,57 @@ Checked for and addressed missing data by either filling in gaps with default va
 <b>3.Data Transformation:</b><br>
     <b>Categorical Encoding:</b> Converted text-based categories (e.g., mobile phone usage patterns) into numerical values for easier analysis.<br>
     <b>Age Data Normalization: </b>Changed age ranges into average values to simplify the analysis.<br>
+    <b>Daily usages Normalization: </b>Convert Daily usages to a numerical format:This approach makes your data ready for analysis or machine learning models by transforming qualitative descriptions into quantitative values.<br>
 
 
-The data preparation involves importing and cleaning the dataset, converting categorical and numerical data into usable formats, creating new features for better analysis, and handling outliers. These steps made the dataset ready for detailed exploration and modeling.
+The data preparation involves importing and cleaning the dataset, converting categorical and numerical data into usable formats, creating new features for better analysis, and handling outliers. These steps made the dataset ready for detailed exploration and modeling.Normalization makes your data easier for machine learning algorithms to work with by putting features on the same scale. This helps in improving the model’s performance and speeds up its learning process.
+
+# Data Splitting for Modeling
+Data splitting is a critical step in getting your data ready for machine learning. It entails dividing your data into two parts: one to train the model and the other to test how well the model performs. This ensures that the model is tested on new data that it has not previously encountered, giving a better idea of how well it can handle new situations.<br>
+<b>Split the Data:</b><br>
+<b>Training Set:</b> This subset of data is used to train the model. It assists the model in determining the relationship between features and the target variable.<br>
+<b>Test Set:</b> This portion is set aside and used to assess the model's performance. It ensures that the model can generalize to new, previously unseen data sets.<br>
+Splitting your data into training and test sets is a key step in building a strong machine learning model. It allows you to check how well the model works and ensures it can handle new, unseen data effectively.
+
+# Modeling
+Using various modeling techniques, we investigated the impact of mobile phone usage on students' academic performance and health. We began with PyCaret, a tool that facilitates the testing and comparison of various machine learning models. PyCaret made it simple to set up our data and test different models to determine which one performed best. We also used <b>Logistic Regression ,GBM, DecisionTreeClassifier and Random Forest models</b>, which are well-known for their accuracy when classifying data.<br>
+
+We first prepared the data by changing text into numbers and fixing any missing or incorrect details. After setting up and running different models, we checked how well each one worked by measuring their accuracy. PyCaret helped us by giving a clear summary of each model’s performance, allowing us to pick the most accurate one for predicting academic performance.<br>
+
+Next, we used K-Means clustering to group students based on their phone usage and health information. This method helps us find patterns and similarities among students with similar phone habits. We then visualized these groups to see how students are clustered and to discover important trends.<br>
+
+We compared the performance of various models to determine which one made the best predictions. We obtained a comprehensive picture of how mobile phone usage affects students by employing both classification models and clustering methods. This method assisted us in understanding phone usage patterns and their impact on students' academic performance and health. Simply put, this method allowed us to examine how various phone habits relate to students' grades and well-being.
+
+# Evaluation
+In our evaluations, both the Gradient Boosting Classifier and the Decision Tree Classifier performed admirably, with perfect accuracy and other metrics. With an accuracy of 75%, the Random Forest Classifier produced inconsistent results across classes, indicating that it may require additional adjustments. Logistic regression had the poorest performance, with an accuracy of 71% and lower precision and recall than the other models.<br>
+We also used K-Means clustering to classify students based on their phone usage and health status. This clustering allowed us to identify patterns and similarities between students. The clustering visualizations revealed a correlation between students' daily phone usage and health symptoms. Overall, the Gradient Boosting Classifier made the most accurate predictions, while the clustering analysis revealed useful information about how phone usage affects students.
+
+# Conclusion
+The Gradient Boosting and Decision Tree Classifiers were very effective at predicting student outcomes with high accuracy. The Random Forest Classifier didn’t do as well and needs adjustments. Logistic Regression performed the worst, with lower accuracy and weaker results. K-Means clustering, however, showed us useful patterns in how students use their phones and its impact on their health and school performance.
+
+# Known Issues
+The analysis has limitations in certain aspects. One issue is data imbalance, which occurs when specific categories in the target variable have insufficient examples. This can reduce model accuracy for underrepresented categories and lead to biased results. <br>
+Moreover, the Gradient Boosting and Decision Tree models had perfect accuracy, which could indicate that they were overfitting. This means that they may perform exceptionally well with training data but poorly with new data. The Random Forest Classifier produced inconsistent results, indicating that it may require some adjustments to function properly. Logistic regression performed poorly, most likely because its simpler design made it unable to handle the complexity of the data. <br>
+K-means clustering might not find all patterns if the number of clusters isn’t right, which can affect how useful the insights are. The conversion and normalization of features may result in errors or oversimplify the data, which could affect the model's performance. The data might have biases or errors from when it was first collected, which can impact how well the models work and their results. Additionally, complex models like gradient boosting can be hard to understand, making it difficult to see why they make certain predictions.
+
+# Instructions
+<b>Python Version:</b><br>
+This project is based on Python 3.10(for the use of Pycaret).<br>
+<b>Platform:</b><br>
+This file was developed to be used with Google Colab or Jupyter Notebooks.<br>
+<b>Required Packages</b><br>
+pandas: For data manipulation and analysis.<br>
+scikit-learn: For machine learning algorithms and tools.<br>
+matplotlib: For plotting and visualizing data.<br>
+pycaret: For easy machine learning model setup and comparison.<br>
+<b>Packages to be installed:</b> Seaborn, GradientBoostingClassifier, classification_report, accuracy_score, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, and KMeans.<br>
+This thorough approach will help us understand how mobile phone usage affects students' academic performance and health. By using both classification models and clustering techniques, we can gain valuable insights and identify key patterns.
+
+
+
+
+
+
 
 
 
