@@ -43,27 +43,37 @@ Below are some key visualizations and insights obtained from the data:<br>
 <b>Visualization:</b>
 Bar chart showing students' perceptions of how mobile phone use impacts their academic performance.
 
-<img width="1018" alt="image" src="https://github.com/user-attachments/assets/e4cad6ee-c3b8-4ab3-8bac-21ff284ccd29">
+<img width="879" alt="image" src="https://github.com/user-attachments/assets/53e07c61-fde5-4959-a6bc-9490a58f01e0">
+
+
+
+
 
 
 <b>Health Precautions Taken:</b><br>
 <b>Observation:</b>The pie chart shows the different health precautions students take to mitigate the risks associated with mobile phone use, such as using blue light filters and limiting screen time.<br>
 <b>Visualization:</b>
 The pie chart indicates the extent to which students are aware of and take precautions against health risks associated with mobile phone use, with some taking proactive measures and others not.
-<img width="831" alt="image" src="https://github.com/user-attachments/assets/e472a1b2-9b37-4773-ad5f-26952d7447e3">
+<img width="814" alt="image" src="https://github.com/user-attachments/assets/0bc764ab-9ba2-41a7-aae8-0982d1be0005">
+
+
 
 
 <b>Health Symptoms and Their Relationship with Academic Performance:</b><br>
 <b>Observation:</b>Bar chart showing the frequency of various health symptoms and their association with perceived academic performance<br>
 <b>Visualization:</b>
 Determine if students experiencing more frequent symptoms (e.g., sleep disturbances, anxiety) report different impacts on academic performance.
-<img width="1035" alt="image" src="https://github.com/user-attachments/assets/e78869f9-689f-44d4-8d58-59b0cc256c4f">
+<img width="903" alt="image" src="https://github.com/user-attachments/assets/5bbb6035-d709-45f3-8e65-6f6b8c12aa0e">
+
+
 
 <b>Relationship Between Mobile Phone Usage Patterns and Academic Performance</b><br>
 <b>Observation:</b> Identify if more frequent usage is associated with better or worse academic performance.<br>
 <b>Visualization:</b>
 Scatter plot or box plot to analyze how different patterns of mobile phone usage for educational purposes (e.g., Sometime, Frequently, Rarely) correlate with perceived academic performance.
-<img width="1159" alt="image" src="https://github.com/user-attachments/assets/7099076b-1689-4767-82fd-ea82b79ab803">
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/547d584b-9523-41d3-a6c8-099ade28833e">
+
+
 
 
 # Data Preparation
@@ -119,21 +129,3 @@ matplotlib: For plotting and visualizing data.<br>
 pycaret: For easy machine learning model setup and comparison.<br>
 <b>Packages to be installed:</b> Seaborn, GradientBoostingClassifier, classification_report, accuracy_score, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, and KMeans.<br>
 This thorough approach will help us understand how mobile phone usage affects students' academic performance and health. By using both classification models and clustering techniques, we can gain valuable insights and identify key patterns.
-
-
-
-
-
-
-
-
-
-
-                   
-
-
-
-
-
-
-
