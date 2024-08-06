@@ -142,3 +142,5 @@ This thorough approach will help us understand how mobile phone usage affects st
 <b>Expand Dataset:</b> Incorporate additional data sources, like academic records from different years or related surveys, to get a more complete understanding of the impact.<br>
 
 <b>Address Data Quality Issues:</b> Continuously refine data cleaning and preprocessing techniques to minimize errors and biases, ensuring the dataset is as accurate and reliable as possible.<br>
+
+Future work should focus on refining data balance, exploring advanced modeling techniques, enhancing feature engineering, and conducting long-term studies. Expanding the dataset and improving data cleaning methods will further strengthen the analysis and provide a more comprehensive understanding of the impacts of mobile phone usage on academic performance and health
