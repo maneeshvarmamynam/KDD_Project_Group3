@@ -129,3 +129,16 @@ matplotlib: For plotting and visualizing data.<br>
 pycaret: For easy machine learning model setup and comparison.<br>
 <b>Packages to be installed:</b> Seaborn, GradientBoostingClassifier, classification_report, accuracy_score, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, and KMeans.<br>
 This thorough approach will help us understand how mobile phone usage affects students' academic performance and health. By using both classification models and clustering techniques, we can gain valuable insights and identify key patterns.
+
+# Future Work
+<b>Improve Data Balance:</b> Use methods like SMOTE or ADASYN to balance the dataset so that all classes are equally represented. This helps the model perform better by ensuring that no class is underrepresented.<br>
+
+<b>Explore Advanced Models:</b> Try using advanced machine learning algorithms and deep learning models, such as XGBoost, LightGBM, or neural networks, to potentially achieve more accurate results and gain deeper insights.<br>
+
+<b>Enhance Feature Engineering:</b> Create and test new features that provide more detailed information on how mobile phone usage affects students' academic performance and health.<br>
+
+<b>Long-Term Studies:</b> Conduct studies over a longer period to understand how mobile phone usage impacts academic performance and health over time.<br>
+
+<b>Expand Dataset:</b> Incorporate additional data sources, like academic records from different years or related surveys, to get a more complete understanding of the impact.<br>
+
+<b>Address Data Quality Issues:</b> Continuously refine data cleaning and preprocessing techniques to minimize errors and biases, ensuring the dataset is as accurate and reliable as possible.<br>
