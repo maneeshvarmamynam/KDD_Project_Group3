@@ -143,4 +143,4 @@ This thorough approach will help us understand how mobile phone usage affects st
 
 <b>Address Data Quality Issues:</b> Continuously refine data cleaning and preprocessing techniques to minimize errors and biases, ensuring the dataset is as accurate and reliable as possible.<br>
 
-Future work should focus on refining data balance, exploring advanced modeling techniques, enhancing feature engineering, and conducting long-term studies. Expanding the dataset and improving data cleaning methods will further strengthen the analysis and provide a more comprehensive understanding of the impacts of mobile phone usage on academic performance and health
+Future work should concentrate on improving data balance, experimenting with advanced modeling techniques, and developing more detailed features. Additionally, conducting long-term studies, expanding the dataset, and enhancing data cleaning methods will provide a deeper and more comprehensive understanding of how mobile phone usage affects academic performance and health.
